@@ -1,0 +1,63 @@
+:root {
+    --bs-txt: turquoise;
+    --bs-txt-hover: rgb(28, 155, 142);
+}
+
+.txt-col {
+    text-decoration: none;
+
+    color: aqua;
+}
+
+.navbar-toggler {
+    background-color: turquoise;
+}
+
+.navbar-toggler:hover {
+    background-color: aqua;
+}
+
+.offcanvas-header {
+    color: turquoise;
+}
+
+.offcanvas-body {
+    color: turquoise;
+}
+
+.navbar-nav {
+    color: turquoise;
+    --bs-nav-link-color: var(--bs-txt);
+    --bs-nav-link-hover-color: var(--bs-txt-hover);
+
+}
+
+.navbar-nav .nav-link.active {
+    color: turquoise;
+}
+
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: x-large;
+    color: turquoise;
+}
+
+.navbar-brand:hover {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: x-large;
+    color: aqua;
+
+}
+
+.nav-pad {
+    padding-bottom: 2rem;
+}
+
+.nav-link:hover {
+    -webkit-transform: translateX(1%) translateY(1%) translateZ(0);
+    transform: translateX(1%) translateY(1%) translateZ(0);
+    cursor: pointer;
+
+}

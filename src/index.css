@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: radial-gradient(circle 815px at 23.4% -21.8%, rgba(9, 29, 85, 1) 0.2%, rgba(0, 0, 0, 1) 100.2%);
+  background-repeat: no-repeat;
+}
+
+
+code {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+a {
+  text-decoration: none;
+  color: turquoise;
+
+}
+
+a:hover {
+  color: aqua;
+  /* text-decoration: underline; */
+}
+
+.off-canvas-body {
+  color: turquoise;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 2.5rem 0rem;
+  background-color: dark;
+  color: turquoise;
+  align-items: center;
+  color: aqua;
+}
+
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-item {
+  padding: 1rem;
+  text-align: center;
+  justify-content: space-between;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: thin;
+}
+
+
+
+.icon-color {
+  color: antiquewhite;
+  padding-bottom: 1.1rem;
+}
+
+.icon-color:hover {
+  cursor: auto;
+  font-size: 2em;
+}
+
+.padding {
+  padding: 2rem 1.5rem 1.5rem;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  background-color: #DAFFFB;
+  border-radius: 1rem;
+
+}
+
+.card:hover {
+  -webkit-transform: translateX(-1%) translateY(-1%) translateZ(0);
+  transform: translateX(-1%) translateY(-1%) translateZ(0);
+  background-color: #79fff2;
+}
+
+
+.card-body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: thin;
+}
+
+.card-img-top {
+  width: 65%;
+  height: auto;
+  padding: 1rem;
+
+}
+
+.body-display {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: aqua;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.text-muted {
+  color: grey;
+}
+
+.text-muted:hover {
+  color: rgb(91, 91, 91);
+}
+
+.card-title {
+  text-align: center;
+}
+
+.row {
+  justify-content: center;
+  align-items: center;
+}
+
+div .card-link {
+  color: gray;
+}
+
+div .card-link:hover {
+  color: rgb(43, 42, 42);
+}
+
+.card-text {
+  margin: 10px;
+  padding: 1rem 0.5rem;
+}
+
+.card-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.pagination {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.page-link {
+  background-color: #DAFFFB;
+  color: black;
+
+}
+
+.active>.page-link {
+  background-color: #79fff2;
+  color: black;
+}
+
+
+
+@media(max-width:1000px) {
+  .row {
+    row-gap: 1rem;
+  }
+}
